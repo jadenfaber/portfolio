@@ -1,1 +1,168 @@
-# welcome
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Portfolio</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f9;
+            margin: 0;
+        }
+
+        header {
+            background: #0077cc;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background: #005fa3;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .project {
+            background: #fff;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+        }
+
+        .project-content {
+            padding: 1rem;
+        }
+
+        .project-title {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-description {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .project-links a {
+            display: inline-block;
+            background: #0077cc;
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            margin-right: 0.5rem;
+        }
+
+        .project-links a:hover {
+            background: #005fa3;
+        }
+
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Project Portfolio</h1>
+        <p>Showcasing my skills, experience, and projects</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm an aerospace engineering student at NC State University. I specialize in SolidWorks 3D modeling, fluid dynamics analysis, and jet engine design. Welcome to my portfolio!</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <div class="project-content">
+                    <h3 class="project-title">CF6 Turbofan Jet Engine Model</h3>
+                    <p class="project-description">A detailed 3D model created in SolidWorks, followed by fluid dynamics testing to analyze performance under various conditions.</p>
+                    <div class="project-links">
+                        <a href="#">View Details</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <div class="project-content">
+                    <h3 class="project-title">Wind Tunnel Testing Simulation</h3>
+                    <p class="project-description">Simulated aerodynamic properties of an aircraft model using ANSYS Fluent, optimizing for lift and drag coefficients.</p>
+                    <div class="project-links">
+                        <a href="#">View Details</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
